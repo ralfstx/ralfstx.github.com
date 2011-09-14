@@ -2,9 +2,10 @@
 <?compositeMetadataRepository version='1.0.0'?>
 <repository name='Eclipse Addons (ralfstx)' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1315930075767'/>
+    <property name='p2.timestamp' value='1316007453432'/>
   </properties>
-  <children size='1'>
+  <children size='2'>
     <child location='mylyn-bugview-0.1.0.20110913-1640'/>
+    <child location='mylyn-bugview-0.2.0.20110914-1518'/>
   </children>
 </repository>

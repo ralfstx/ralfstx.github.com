@@ -62,13 +62,13 @@ cat > /tmp/comp-repo.xml <<EOM
   <target name="create">
     <mkdir dir="${repoDir}"/>
     <p2.composite.repository>
-      <repository compressed="true" name="${repoName}" location="${repoDir}" />
+      <repository compressed="false" name="${repoName}" location="${repoDir}" />
     </p2.composite.repository>
   </target>
 
   <target name="add">
     <p2.composite.repository>
-      <repository compressed="true" location="${repoDir}" />
+      <repository compressed="false" location="${repoDir}" />
       <add>
         <repository location="${repoName}" />
       </add>
@@ -77,7 +77,7 @@ cat > /tmp/comp-repo.xml <<EOM
 
   <target name="remove">
     <p2.composite.repository>
-      <repository compressed="true" location="${repoDir}" />
+      <repository compressed="false" location="${repoDir}" />
       <remove>
         <repository location="${repoName}" />
       </remove>

@@ -2,10 +2,11 @@
 <?compositeMetadataRepository version='1.0.0'?>
 <repository name='JSHint Eclipse Integration Updates' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1325973681474'/>
+    <property name='p2.timestamp' value='1325981181672'/>
   </properties>
-  <children size='2'>
-    <child location='eclipse-jshint-0.1.0.20120107-2042'/>
-    <child location='eclipse-jshint-0.1.0.20120107-2155'/>
+  <children size='3'>
+    <child location='jshint-eclipse-0.1.0.20120107-2042'/>
+    <child location='jshint-eclipse-0.1.0.20120107-2155'/>
+    <child location='jshint-eclipse-0.1.0.20120108-0002'/>
   </children>
 </repository>
